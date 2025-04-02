@@ -37,12 +37,12 @@ To be completed by: Ashley
 ### **Week 3: Data Visualization** 
 To be completed by: Both
 - Generate summary statistics to understand data distribution.
-- Generate initial visualizations (histograms, box plots, bar plots, pie charts, etc.) to understand data distribution  
+- Generate initial visualizations (histograms, box plots, bar plots, pie charts, etc.)
 - Create correlation maps to identify key relationships between variables
 - Document the rationale behind visualization choices and analysis methods
 
 ### **Week 4: Documentation & Results Presentation**
 To be completed by: Both
+- Generate more visualizations (e.g., map) if necessary to effectively present insights and trends  
 - Summarize key findings and connect them to the research questions  
 - Compare results with initial hypotheses to assess accuracy 
-- Generate more visualizations (e.g., map) if necessary to effectively present insights and trends  
