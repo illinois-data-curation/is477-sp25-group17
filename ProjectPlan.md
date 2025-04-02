@@ -8,9 +8,9 @@
 - Harshi Vetrivel (hvetr2@illinois.edu)
 
 **Responsibilities:**
-  - Harshi: Data Cleaning: 
-  - Ashley: Descriptive Analytics
-  - Shared: Data Analysis, Visualization, and Results
+  - Harshi: Data Acquisition + Integration
+  - Ashley: Data Cleaning
+  - Shared: Data Visualization and Results
     
 ## Datasets
 1. [Chicago Energy Benchmarking Dataset](https://data.cityofchicago.org/Environment-Sustainable-Development/Chicago-Energy-Benchmarking/xq83-jr8c/data_preview)
