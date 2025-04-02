@@ -22,28 +22,27 @@ The Chicago Energy Benchmarking dataset contains key data about energy and water
 This dataset lists all buildings required to follow the Chicago Energy Benchmarking Ordinance. It includes commercial, institutional, and residential buildings larger than 50,000 square feet. The main purpose of this dataset is to help building owners, managers, and representatives check if their property needs to comply with the ordinance by the June 1st annual deadline. Each building in this dataset is assigned a unique Chicago Energy Benchmarking ID. This ID is used to link the covered buildings dataset with the main energy benchmarking dataset, allowing for better analysis of energy performance across different buildings.
 
 ## Timeline
-### **Week 1: Data Cleaning**
+### **Week 1: Data Acquisition & Integration**
 To be completed by: Harshi
-- Preprocess and clean missing/null values to ensure data completeness  
-- Standardize variables with large ranges (e.g., building size) for consistency in analysis  
-- Link datasets through ID matching to integrate relevant information  
+- Develop scripts (Python) to import datasets
+- Use integrity checks to confirm data has imported accurately
+- Create methods to integrate both datasets with a common variable (Building ID)
 
-### **Week 2: Descriptive Analytics**  
+### **Week 2: Data Cleaning**  
 To be completed by: Ashley
-- Generate initial visualizations (histograms, box plots, bar plots, pie charts, etc.) to understand data distribution  
-- Create correlation maps to identify key relationships between variables  
-- Compute summary statistics to provide an overview of data characteristics 
+- Preprocess and clean missing/null values to ensure data completeness  
+- Standardize variables with large ranges (e.g., building size) for consistency in analysis
+- Document data cleaning and quality assessment steps
 
-### **Week 3: Data Analysis** 
+### **Week 3: Data Visualization** 
 To be completed by: Both
-- Develop predictive models for deeper insights  
-  - Perform **linear regression** to analyze emission rates  
-  - Use **classification models** to analyze building size 
-- Optimize model performance through hyperparameter tuning 
-- Evaluate model effectiveness using performance metrics such as **R²** for regression and **Cohen’s Kappa** for classification 
+- Generate summary statistics to understand data distribution.
+- Generate initial visualizations (histograms, box plots, bar plots, pie charts, etc.) to understand data distribution  
+- Create correlation maps to identify key relationships between variables
+- Document the rationale behind visualization choices and analysis methods
 
 ### **Week 4: Documentation & Results Presentation**
 To be completed by: Both
 - Summarize key findings and connect them to the research questions  
 - Compare results with initial hypotheses to assess accuracy 
-- Generate visualizations (e.g., maps) to effectively present insights and trends  
+- Generate more visualizations (e.g., map) if necessary to effectively present insights and trends  
