@@ -25,7 +25,7 @@ This dataset lists all buildings required to follow the Chicago Energy Benchmark
 ### **Week 1: Data Acquisition & Integration**
 To be completed by: Harshi
 - Develop scripts (Python) to import datasets
-- Use integrity checks to confirm data has imported accurately
+- Confirm data quality by cross-checking if datasets have imported accurately
 - Create methods to integrate both datasets with a common variable (Building ID)
 
 ### **Week 2: Data Cleaning**  
