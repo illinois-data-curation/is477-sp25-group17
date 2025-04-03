@@ -2,8 +2,8 @@
 This project aims to analyze greenhouse gas emissions (GHG) in Chicago buildings by merging data from the Chicago Energy Benchmarking Dataset and the Chicago Energy Benchmarking Buildings Covered Dataset. Our analysis will evaluate the effectiveness of the city's energy efficiency and identify areas of weakness where additional city policies and improvements may be needed. Our findings could add to the ongoing discussion and progress of environmental sustainability and policy effectiveness in urban energy management. 
 
 ## Research Question 
-- What are the individual relationships between Water, Gas, and Electricity with Total GHG Emissions and how does each relationship compare to the others? 
-- Is there a significant difference in the Total GHG Emissions across different Community Areas?
+1.  What are the individual relationships between Water, Gas, and Electricity with Total GHG Emissions and how does each relationship compare to the others?
+2.  Is there a significant difference in the Total GHG Emissions across different Community Areas?
 
 ## Team 
 **Members:**
