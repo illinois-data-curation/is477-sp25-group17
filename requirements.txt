@@ -1,0 +1,10 @@
+snakemake
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+patsy
+shapely
+scikit-learn
