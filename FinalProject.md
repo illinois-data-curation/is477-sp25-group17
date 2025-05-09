@@ -127,8 +127,9 @@ To reproduce the results of this project, follow these steps:
    - Perform analysis
    - Generate visualizations and statistical test outputs
 
-5. **Expected outputs**  
-   After running the pipeline, you should see the following files in the `output/` directory:
+5. **Expected outputs**
+   After running the pipeline, you should  expect to see `buildings_data.csv, energy_data.csv, and cleaned_data.csv` in the `data/` folder.
+   You should also see the following files in the `output/` folder:
 
    | Output File                  | Description                                                             |
    |-----------------------------|-------------------------------------------------------------------------|
@@ -138,19 +139,23 @@ To reproduce the results of this project, follow these steps:
    | avg_emissions_barplot.png   | Bar plot showing average emissions per top community areas              |
    | anova_tukey_results.txt     | Text results of ANOVA and Tukey HSD tests                               |
 
-6. **Run specific rules**  
+7. **Run specific rules**  
    You can also run specific steps individually. For example:
 
    ```
    snakemake --cores 1 prepare_data
    ```
 
-7. **Clean up outputs**  
+8. **Clean up outputs**  
    To remove all generated output files:
 
    ```
    snakemake --cores 1 --delete-all-output
    ```
+### Additional Notes:
+* The `data/` and `output/` folders should be created through running the Snakemake workflow.
+* Here is the link to the expected output to double check your results
+  
 ## References
 City of Chicago. (2024). Chicago Energy Benchmarking. City of Chicago Data Portal. Retrieved from https://data.cityofchicago.org/Environment-Sustainable-Development/Chicago-Energy-Benchmarking/77hq-huss 
 
