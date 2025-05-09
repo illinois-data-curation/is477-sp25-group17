@@ -139,9 +139,9 @@ To reproduce the results of this project, follow these steps:
             - Pie chart of community area distribution
             - Bar chart of average emissions
      3. Performs statistical tests to compare emissions across community areas:
-            - One-way ANOVA test
-            - Post-hoc Tukey HSD test
-     4. Saves all outputs (plots and test results) to the `output/` directory for further reporting or inspection
+        * One-way ANOVA test
+        * Post-hoc Tukey HSD test
+     5. Saves all outputs (plots and test results) to the `output/` directory for further reporting or inspection
 
 6. **Expected outputs**
    
