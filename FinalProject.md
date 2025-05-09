@@ -95,10 +95,6 @@ Overall, there's a lot of potential to grow our project into a deeper investigat
 
 ## Steps to Reproduce Results 
 
-## Running the Workflow
-
-To reproduce the results of this project, follow these steps:
-
 1. **Set up your environment**  
    Ensure your environment matches or is compatible with the specifications listed in `environment.md`. This includes:
    - `git`
