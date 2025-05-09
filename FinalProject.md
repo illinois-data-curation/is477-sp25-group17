@@ -154,7 +154,7 @@ To reproduce the results of this project, follow these steps:
    ```
 ### Additional Notes:
 * The `data/` and `output/` folders should be created through running the Snakemake workflow.
-* Here is the link to the expected output to double check your results
+* Here is the link to the [expected output](https://uofi.box.com/s/8twok3r3iu0v1bo65wxnmskpcc2qtgnb) to double check your results
   
 ## References
 City of Chicago. (2024). Chicago Energy Benchmarking. City of Chicago Data Portal. Retrieved from https://data.cityofchicago.org/Environment-Sustainable-Development/Chicago-Energy-Benchmarking/77hq-huss 
