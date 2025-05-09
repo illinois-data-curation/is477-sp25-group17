@@ -1,6 +1,6 @@
 # Analysis of Greenhouse Gas Emission Patterns in Chicago
 
-Archival Record:
+Archival Record: 10.5072/zenodo.215418
 ## Contributors 
 **Members:**
 - Ashley Witte (agwitte2@illinois.edu) (ORCID: 0009-0004-7861-9265)
