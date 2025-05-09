@@ -122,15 +122,15 @@ To reproduce the results of this project, follow these steps:
    snakemake --cores 1
    ```
 
-   This will:
-   * Prepare the data (clean and merge datasets)
+   This will run two scripts:
+   * `prepare_data.py`: Clean and merge datasets
   
      1. Reads in two datasets: one on building energy usage and one listing which buildings are covered under the benchmarking ordinance
      2. Merges the datasets using a common building ID using an inner join
      3. Drops missing values in the 'total_ghg_emissions_metric_tons_co2e', 'natural_gas_use_kbtu', and 'electricity_use_kbtu' columns 
      4. Saves the merged dataset for future analysis
    
-   * Analyze data, generate visualizations, and statistical results
+   * `analyze_data.py`: Generate visualizations and statistical results
   
        1. Loads the cleaned dataset to prepare for analysis.
        2. Generates multiple visualizations to explore relationships between utility usage and greenhouse gas emissions, including:
