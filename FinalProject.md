@@ -1,7 +1,3 @@
-need to add:
-Reproducing: Sequence of steps required for someone else to reproduce your results.
-References: Formatted citations for any papers, datasets, or software used in your project.
-
 # Analysis of Greenhouse Gas Emission Patterns in Chicago
 
 Archival Record:
@@ -155,4 +151,7 @@ To reproduce the results of this project, follow these steps:
    ```
    snakemake --cores 1 --delete-all-output
    ```
+## References
+City of Chicago. (2024). Chicago Energy Benchmarking. City of Chicago Data Portal. Retrieved from https://data.cityofchicago.org/Environment-Sustainable-Development/Chicago-Energy-Benchmarking/77hq-huss 
 
+City of Chicago. (2024). Chicago Energy Benchmarking – Covered Buildings. City of Chicago Data Portal. Retrieved from https://data.cityofchicago.org/Environment-Sustainable-Development/Chicago-Energy-Benchmarking-Covered-Buildings/vcwg-hij4 
