@@ -123,11 +123,27 @@ To reproduce the results of this project, follow these steps:
    ```
 
    This will:
-   - Prepare the data (clean and merge datasets)
-   - Perform analysis
-   - Generate visualizations and statistical test outputs
+   * Prepare the data (clean and merge datasets)
+  
+     1. Reads in two datasets: one on building energy usage and one listing which buildings are covered under the benchmarking ordinance
+     2. Merges the datasets using a common building ID using an inner join
+     3. Drops missing values in the 'total_ghg_emissions_metric_tons_co2e', 'natural_gas_use_kbtu', and 'electricity_use_kbtu' columns 
+     4. Saves the merged dataset for future analysis
+   
+   * Analyze data, generate visualizations, and statistical results
+  
+       1. Loads the cleaned dataset to prepare for analysis.
+       2. Generates multiple visualizations to explore relationships between utility usage and greenhouse gas emissions, including:
+            - Scatter plots
+            - Correlation heatmap
+            - Pie chart of community area distribution
+            - Bar chart of average emissions
+     3. Performs statistical tests to compare emissions across community areas:
+            - One-way ANOVA test
+            - Post-hoc Tukey HSD test
+     4. Saves all outputs (plots and test results) to the `output/` directory for further reporting or inspection
 
-5. **Expected outputs**
+6. **Expected outputs**
    
    After running the pipeline, you should  expect to see `buildings_data.csv, energy_data.csv, and cleaned_data.csv` in the `data/` folder.
    
