@@ -128,7 +128,9 @@ To reproduce the results of this project, follow these steps:
    - Generate visualizations and statistical test outputs
 
 5. **Expected outputs**
+   
    After running the pipeline, you should  expect to see `buildings_data.csv, energy_data.csv, and cleaned_data.csv` in the `data/` folder.
+   
    You should also see the following files in the `output/` folder:
 
    | Output File                  | Description                                                             |
