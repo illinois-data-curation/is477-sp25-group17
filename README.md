@@ -4,7 +4,7 @@ Archival Record:
 ## Contributors 
 **Members:**
 - Ashley Witte (agwitte2@illinois.edu) (ORCID: 0009-0004-7861-9265)
-- Harshi Vetrivel (hvetr2@illinois.edu)
+- Harshi Vetrivel (hvetr2@illinois.edu) (ORCID: 0009-0007-5669-2826)
   
 **Responsibilities:**
   - Harshi: Data Cleaning
