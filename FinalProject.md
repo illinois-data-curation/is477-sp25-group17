@@ -94,5 +94,65 @@ A key takeaway from working on this project was learning the distinction between
 
 There are plenty of opportunities to expand or improve this project in the future. A major one would be to incorporate data across multiple years. Right now, our range is 2014-2023 but a wider range could give us a more holistic view of trends and patterns in emission rates across time. This could provide major insights into the energy efficiency of the city during different historical events, evolutions of community areas, and more. Another area that we did not have the opportunity to explore in this project would be to include socioeconomic data for each community area that we used as a part of our data analysis. We could investigate concerns related to environmental equity, like if lower-income neighborhoods were more or less affected by high-emission buildings in their area. This could also lead to identifying communities that are being overlooked in energy saving efforts. Another great idea would be to introduce predictive models that could give us insight into the expected emission rates of buildings with certain characteristics. If we could turn that predictive model into something that can be used by city planners or sustainability organizations, it may be able to introduce an accessible way to produce buildings with minimized harm to the environment. We also think it would be interesting to interview building managers and/or city officials to gain insight into what kinds of improvements are actually being implemented in their fields and how public policy influences the patterns that we see. We could also research Chicago’s energy and climate policies to identify how the data may intersect. Understanding the policies could make our project more relevant for real-world usage.
 
+
 Overall, there's a lot of potential to grow our project into a deeper investigation into the sustainability practices of urban cities like Chicago. With more datasets, modeling techniques, and added context, future work could offer more meaningful insights into how Chicago can reduce its building-related emissions.
+
+## Steps to Reproduce Results 
+
+## Running the Workflow
+
+To reproduce the results of this project, follow these steps:
+
+1. **Set up your environment**  
+   Ensure your environment matches or is compatible with the specifications listed in `environment.md`. This includes:
+   - `git`
+   - `python`
+   - Operating system version
+
+2. **Install dependencies**  
+   Use the following command to install required packages:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **Ensure all necessary files are present**  
+   Make sure `Snakefile` and the Python scripts in the `scripts/` directory are downloaded to your working directory.
+
+4. **Run the full pipeline**  
+   Execute the default `reproduce_all` rule by running:
+
+   ```
+   snakemake --cores 1
+   ```
+
+   This will:
+   - Prepare the data (clean and merge datasets)
+   - Perform analysis
+   - Generate visualizations and statistical test outputs
+
+5. **Expected outputs**  
+   After running the pipeline, you should see the following files in the `output/` directory:
+
+   | Output File                  | Description                                                             |
+   |-----------------------------|-------------------------------------------------------------------------|
+   | scatter_plots.png           | Scatter plots of GHG emissions vs. water, electricity, and natural gas usage |
+   | correlation_heatmap.png     | Heatmap showing correlations between numerical features                 |
+   | pie_chart.png               | Distribution of buildings across community areas                        |
+   | avg_emissions_barplot.png   | Bar plot showing average emissions per top community areas              |
+   | anova_tukey_results.txt     | Text results of ANOVA and Tukey HSD tests                               |
+
+6. **Run specific rules**  
+   You can also run specific steps individually. For example:
+
+   ```
+   snakemake --cores 1 prepare_data
+   ```
+
+7. **Clean up outputs**  
+   To remove all generated output files:
+
+   ```
+   snakemake --cores 1 --delete-all-output
+   ```
 
